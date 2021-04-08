@@ -24,7 +24,7 @@
             </div>
             <div>
                     <asp:Label runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>&nbsp;&nbsp;
-                    <asp:HyperLink ID="hl_FB" runat="server" ImageUrl="aws-brands.svg" Height="30px" Width="30px" NavigateUrl="https://aws.amazon.com/tw/"></asp:HyperLink>
+                    <asp:HyperLink runat="server" ImageUrl="aws-brands.svg" Height="30px" Width="30px" NavigateUrl="https://aws.amazon.com/tw/"></asp:HyperLink>
             </div>
             <div>
                     <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" Width="80px" PostBackUrl="Sample1Com.aspx" />
